@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="engl">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Your Profile</title>
+</head>
+<body>
+<!-- Also samelesly copied from: https://getbootstrap.com/docs/4.0/components/dropdowns/ -->
+<!-- ***** Drop_Down Book_Category code STARTS here ***** -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Book Categories
+    </button>
+    <ul class="dropdown-menu">
+        <li th:each="category : ${bookCategories}">
+            <a class="dropdown-item" th:text="${category.name}"></a>
+        </li>
+    </ul>
+</div>
+<!-- ***** Drop_Down Book_Category code ENDS here ***** -->
+
+</body>
+</html>
