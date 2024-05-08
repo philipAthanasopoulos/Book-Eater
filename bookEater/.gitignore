@@ -29,3 +29,4 @@ build/
 
 ### VS Code ###
 .vscode/
+!/target/bookEater-0.0.1-SNAPSHOT.jar.original
