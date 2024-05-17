@@ -34,33 +34,33 @@ public class DatabaseInitializerService {
         this.bookService = bookService;
     }
 
-    @PostConstruct
-    @Transactional
-    public void insertData() {
-        Faker faker = new Faker(new Locale("en-US"));
-
-        for (int i = 0; i < 20; i++) {
-            UserProfile user = new UserProfile();
-            user.setFirstName(faker.name().firstName());
-            user.setLastName(faker.name().lastName());
-            user.setPassword(faker.internet().password());
-            user.setEmail(faker.internet().emailAddress());
-            userService.saveUser(user);
-
-            BookOffer bookOffer = new BookOffer();
-            Book book = new Book();
-            book.setAuthors(List.of(new Author(faker.book().author())));
-            book.setTitle(faker.book().title());
-            book.setCategories(bookCategoryService.getBookCategories());
-            book.setSummary(faker.lorem().paragraph());
-
-            bookOffer.setOfferedBook(book);
-            bookOffer.setOfferor(user);
-            bookOfferService.saveBookOffer(bookOffer);
-
-        }
-
-    }
+//    @PostConstruct
+//    @Transactional
+//    public void insertData() {
+//        Faker faker = new Faker(new Locale("en-US"));
+//
+//        for (int i = 0; i < 20; i++) {
+//            UserProfile user = new UserProfile();
+//            user.setFirstName(faker.name().firstName());
+//            user.setLastName(faker.name().lastName());
+//            user.setPassword(faker.internet().password());
+//            user.setEmail(faker.internet().emailAddress());
+//            userService.saveUser(user);
+//
+//            BookOffer bookOffer = new BookOffer();
+//            Book book = new Book();
+//            book.setAuthors(List.of(new Author(faker.book().author())));
+//            book.setTitle(faker.book().title());
+//            book.setCategories(bookCategoryService.getBookCategories());
+//            book.setSummary(faker.lorem().paragraph());
+//
+//            bookOffer.setOfferedBook(book);
+//            bookOffer.setOfferor(user);
+//            bookOfferService.saveBookOffer(bookOffer);
+//
+//        }
+//
+//    }
 
 
 }
