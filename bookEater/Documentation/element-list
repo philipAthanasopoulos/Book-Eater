@@ -1,9 +1,0 @@
-objectArmy.bookEater
-objectArmy.bookEater.controller
-objectArmy.bookEater.entity.book
-objectArmy.bookEater.entity.recommend
-objectArmy.bookEater.entity.search
-objectArmy.bookEater.entity.user
-objectArmy.bookEater.repository
-objectArmy.bookEater.security.config
-objectArmy.bookEater.service
