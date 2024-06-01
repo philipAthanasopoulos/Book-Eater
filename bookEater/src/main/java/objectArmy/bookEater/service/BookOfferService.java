@@ -62,29 +62,29 @@ public class BookOfferService {
 
     // Find by bookTitle
     public List<BookOffer> searchByTitleApproximately(String userQuery) {
-        return this.bookOfferRepository.findByTitleApproximately(userQuery);
+        return this.bookOfferRepository.findByOfferedBookTitleContainingIgnoreCase(userQuery);
     }
 
     // Find by bookAuthor
     public List<BookOffer> searchByAuthorApproximately(String userQuery) {
-        return this.bookOfferRepository.findByAuthorApproximately(userQuery);
+        return this.bookOfferRepository.findByOfferedBookAuthorsNameContainingIgnoreCase(userQuery);
     }
 
     // Find by bookTitle
     public List<BookOffer> searchByTitleExact(String userQuery) {
-        return this.bookOfferRepository.findByTitleExact(userQuery);
+        return this.bookOfferRepository.findByOfferedBookTitle(userQuery);
     }
 
     // Find by bookAuthor
     public List<BookOffer> searchByAuthorExact(String userQuery) {
-        return this.bookOfferRepository.findByAuthorExact(userQuery);
+        return this.bookOfferRepository.findByOfferedBookAuthorsName(userQuery);
     }
 
     public List<BookOffer> getOffersByCategory(BookCategory favoriteCategory) {
-        return bookOfferRepository.findByOfferedBookCategory(favoriteCategory);
+        return bookOfferRepository.findByOfferedBookCategoriesContaining(favoriteCategory);
     }
 
     public List<BookOffer> getAllBookOffersExceptFor(Long id) {
-        return bookOfferRepository.findAllExceptFor(id);
+        return bookOfferRepository.findByOfferorIdNot(id);
     }
 }

@@ -56,10 +56,16 @@
                         </span>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit"
-                            th:disabled="${#lists.contains(user.getRequestedBookOffers(), bookOffer)}"
-                            th:text="${#lists.contains(user.getRequestedBookOffers(), bookOffer) ? 'Requested' : 'Request'}">
-                    </button>
+
+                    <div class="d-flex justify-content-between total font-weight-bold mt-4">
+                        <form th:action="@{'/requestBook/' + ${user.getId()} + '/' + ${bookOffer.getId()}}"
+                              method="post">
+                            <button class="btn btn-primary" type="submit"
+                                    th:disabled="${#lists.contains(user.getRequestedBookOffers(), bookOffer)}"
+                                    th:text="${#lists.contains(user.getRequestedBookOffers(), bookOffer) ? 'Requested' : 'Request'}">
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
