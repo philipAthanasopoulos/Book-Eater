@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="objectArmy.bookEater.service.AuthorServiceTest" time="15.56" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="objectArmy.bookEater.service.AuthorServiceTest" time="10.496" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Philip\.jdks\jbr-17.0.9-1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Philip\AppData\Local\Temp\surefire16360419424244975391\surefirebooter-20240521142031164_3.jar C:\Users\Philip\AppData\Local\Temp\surefire16360419424244975391 2024-05-21T14-20-30_690-jvmRun1 surefire-20240521142031164_1tmp surefire_0-20240521142031164_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Philip\AppData\Local\Temp\surefire16819144075096985516\surefirebooter-20240601200615441_3.jar C:\Users\Philip\AppData\Local\Temp\surefire16819144075096985516 2024-06-01T20-06-15_220-jvmRun1 surefire-20240601200615441_1tmp surefire_0-20240601200615441_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater\target\test-classes;C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater\target\classes;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.4\spring-boot-starter-data-jpa-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.4\spring-boot-starter-aop-3.2.4.jar;C:\Users\Philip\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.4\spring-boot-starter-jdbc-3.2.4.jar;C:\Users\Philip\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-jdbc\6.1.5\spring-jdbc-6.1.5.jar;C:\Users\Philip\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\Philip\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Philip\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Philip\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Philip\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Philip\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Philip\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Philip\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Philip\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\Philip\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\Philip\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\Philip\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\Philip\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Philip\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Philip\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Philip\.m2\repository\org\springframework\data\spring-data-jpa\3.2.4\spring-data-jpa-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\data\spring-data-commons\3.2.4\spring-data-commons-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-orm\6.1.5\spring-orm-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-context\6.1.5\spring-context-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-tx\6.1.5\spring-tx-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-beans\6.1.5\spring-beans-6.1.5.jar;C:\Users\Philip\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Philip\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-aspects\6.1.5\spring-aspects-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.4\spring-boot-starter-web-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.4\spring-boot-starter-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot\3.2.4\spring-boot-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.4\spring-boot-autoconfigure-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.4\spring-boot-starter-logging-3.2.4.jar;C:\Users\Philip\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Philip\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Philip\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Philip\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Philip\.m2\repository\org\slf4j\jul-to-slf4j\2.0.12\jul-to-slf4j-2.0.12.jar;C:\Users\Philip\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.4\spring-boot-starter-json-3.2.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\Philip\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.4\spring-boot-starter-tomcat-3.2.4.jar;C:\Users\Philip\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.19\tomcat-embed-core-10.1.19.jar;C:\Users\Philip\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.19\tomcat-embed-el-10.1.19.jar;C:\Users\Philip\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.19\tomcat-embed-websocket-10.1.19.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-web\6.1.5\spring-web-6.1.5.jar;C:\Users\Philip\.m2\repository\io\micrometer\micrometer-observation\1.12.4\micrometer-observation-1.12.4.jar;C:\Users\Philip\.m2\repository\io\micrometer\micrometer-commons\1.12.4\micrometer-commons-1.12.4.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-webmvc\6.1.5\spring-webmvc-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-expression\6.1.5\spring-expression-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.4\spring-boot-starter-security-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-aop\6.1.5\spring-aop-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\security\spring-security-config\6.2.3\spring-security-config-6.2.3.jar;C:\Users\Philip\.m2\repository\org\springframework\security\spring-security-web\6.2.3\spring-security-web-6.2.3.jar;C:\Users\Philip\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Philip\.m2\repository\com\h2database\h2\2.2.220\h2-2.2.220.jar;C:\Users\Philip\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.4\spring-boot-starter-test-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-test\3.2.4\spring-boot-test-3.2.4.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.4\spring-boot-test-autoconfigure-3.2.4.jar;C:\Users\Philip\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Philip\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\Philip\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\Philip\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Philip\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Philip\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Philip\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Philip\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\Philip\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Philip\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Philip\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Philip\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Philip\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Philip\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Philip\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Philip\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Philip\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Philip\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Philip\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Philip\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Philip\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Philip\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Philip\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-core\6.1.5\spring-core-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-jcl\6.1.5\spring-jcl-6.1.5.jar;C:\Users\Philip\.m2\repository\org\springframework\spring-test\6.1.5\spring-test-6.1.5.jar;C:\Users\Philip\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Philip\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.2.4\spring-boot-starter-thymeleaf-3.2.4.jar;C:\Users\Philip\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\Philip\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\Philip\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\Philip\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\Philip\.m2\repository\org\postgresql\postgresql\42.7.3\postgresql-42.7.3.jar;C:\Users\Philip\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Philip\.m2\repository\org\springframework\security\spring-security-test\6.2.3\spring-security-test-6.2.3.jar;C:\Users\Philip\.m2\repository\org\springframework\security\spring-security-core\6.2.3\spring-security-core-6.2.3.jar;C:\Users\Philip\.m2\repository\org\springframework\security\spring-security-crypto\6.2.3\spring-security-crypto-6.2.3.jar;C:\Users\Philip\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Philip\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Philip\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Philip\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Philip\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
     <property name="jbr.virtualization.information" value="Hyper-V role"/>
-    <property name="surefire.real.class.path" value="C:\Users\Philip\AppData\Local\Temp\surefire16360419424244975391\surefirebooter-20240521142031164_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Philip\AppData\Local\Temp\surefire16819144075096985516\surefirebooter-20240601200615441_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+8-b1166.2"/>
@@ -48,13 +48,13 @@
     <property name="localRepository" value="C:\Users\Philip\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Philip\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2024.1.1"/>
+    <property name="idea.version" value="2024.1.2"/>
     <property name="com.zaxxer.hikari.pool_number" value="6"/>
     <property name="java.version" value="17.0.9"/>
     <property name="user.dir" value="C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="32164"/>
+    <property name="PID" value="19868"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -65,9 +65,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="getAuthorById" classname="objectArmy.bookEater.service.AuthorServiceTest" time="2.164">
-    <system-out><![CDATA[14:20:33.502 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [objectArmy.bookEater.service.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:20:33.788 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration objectArmy.bookEater.BookEaterApplication for test class objectArmy.bookEater.service.AuthorServiceTest
+  <testcase name="getAuthorById" classname="objectArmy.bookEater.service.AuthorServiceTest" time="1.499">
+    <system-out><![CDATA[20:06:16.687 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [objectArmy.bookEater.service.AuthorServiceTest]: AuthorServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:06:16.822 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration objectArmy.bookEater.BookEaterApplication for test class objectArmy.bookEater.service.AuthorServiceTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -77,18 +77,18 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:34.590+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:34.593+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:36.222+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:36.328+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:37.045+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:37.141+03:00  INFO 32164 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-21T14:20:37.205+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:37.682+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:37.720+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-21T14:20:38.054+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ebfb045
-2024-05-21T14:20:38.057+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-21T14:20:39.901+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:17.214+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:17.216+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:18.029+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:18.086+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:18.737+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:18.842+03:00  INFO 19868 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-01T20:06:18.927+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:19.234+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:19.286+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-01T20:06:19.506+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@682266d8
+2024-06-01T20:06:19.507+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-01T20:06:20.569+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -161,14 +161,13 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:40.262+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:40.894+03:00  INFO 32164 --- [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-05-21T14:20:41.536+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:41.980+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6089c1e3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67231d8d, org.springframework.security.web.context.SecurityContextHolderFilter@98dc042, org.springframework.security.web.header.HeaderWriterFilter@5a429813, org.springframework.web.filter.CorsFilter@7acb0a44, org.springframework.security.web.csrf.CsrfFilter@10374cae, org.springframework.security.web.authentication.logout.LogoutFilter@5d3b0f8a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2845fd12, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a90c15e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55a46bf3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63088bbd, org.springframework.security.web.access.ExceptionTranslationFilter@32441ed4, org.springframework.security.web.access.intercept.AuthorizationFilter@4d4f6121]
-2024-05-21T14:20:42.386+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 8.276 seconds (process running for 10.998)
-2024-05-21T14:20:42.425+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:42.428+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-21T14:20:42.449+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-01T20:06:20.753+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:21.571+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:22.315+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@329a27ae, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@589a82af, org.springframework.security.web.context.SecurityContextHolderFilter@8929865, org.springframework.security.web.header.HeaderWriterFilter@4b517357, org.springframework.web.filter.CorsFilter@5edce7da, org.springframework.security.web.csrf.CsrfFilter@253c7189, org.springframework.security.web.authentication.logout.LogoutFilter@7a285418, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ae6119b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d97a357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e6cd1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f69e35a, org.springframework.security.web.access.ExceptionTranslationFilter@153c69bc, org.springframework.security.web.access.intercept.AuthorizationFilter@58ca1cad]
+2024-06-01T20:06:22.888+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 5.909 seconds (process running for 7.316)
+2024-06-01T20:06:22.919+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:22.924+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-01T20:06:22.937+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -178,17 +177,17 @@ Hibernate: alter table if exists user_profile_notifications add constraint FKspg
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:42.500+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:42.500+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:42.698+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:42.715+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:42.808+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:42.812+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:42.818+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:42.819+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-05-21T14:20:42.891+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@e73787
-2024-05-21T14:20:42.892+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-05-21T14:20:43.062+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:22.960+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:22.960+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:23.110+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:23.127+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:23.194+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:23.196+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:23.200+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:23.200+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-01T20:06:23.235+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@f1e5f85
+2024-06-01T20:06:23.235+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-01T20:06:23.360+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -261,20 +260,20 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:43.230+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:43.434+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:43.504+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d5cb059, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23591a2c, org.springframework.security.web.context.SecurityContextHolderFilter@184b8899, org.springframework.security.web.header.HeaderWriterFilter@1dbb3001, org.springframework.web.filter.CorsFilter@431782fe, org.springframework.security.web.csrf.CsrfFilter@4a547f9d, org.springframework.security.web.authentication.logout.LogoutFilter@49a6b730, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@513f8279, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@718aa49a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4992e34f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e16fcaf, org.springframework.security.web.access.ExceptionTranslationFilter@7828111d, org.springframework.security.web.access.intercept.AuthorizationFilter@33fa6a8b]
-2024-05-21T14:20:43.580+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 1.126 seconds (process running for 12.193)
+2024-06-01T20:06:23.461+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:23.594+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:23.680+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a57ad67, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f1b69bb, org.springframework.security.web.context.SecurityContextHolderFilter@76a13b12, org.springframework.security.web.header.HeaderWriterFilter@21b96db, org.springframework.web.filter.CorsFilter@c730e65, org.springframework.security.web.csrf.CsrfFilter@1d63f6be, org.springframework.security.web.authentication.logout.LogoutFilter@70ba01be, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a40e660, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7475f57e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@514f2b5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@616d9a6d, org.springframework.security.web.access.ExceptionTranslationFilter@23a0c7f3, org.springframework.security.web.access.intercept.AuthorizationFilter@3020f22]
+2024-06-01T20:06:23.747+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.806 seconds (process running for 8.174)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 ]]></system-out>
   </testcase>
-  <testcase name="addAuthor" classname="objectArmy.bookEater.service.AuthorServiceTest" time="1.178">
-    <system-out><![CDATA[2024-05-21T14:20:44.580+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:44.581+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2024-05-21T14:20:44.589+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+  <testcase name="addAuthor" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.828">
+    <system-out><![CDATA[2024-06-01T20:06:24.413+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:24.414+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-01T20:06:24.415+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -284,17 +283,17 @@ Hibernate: insert into author (name,id) values (?,?)
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:44.615+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:44.616+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:44.806+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:44.821+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:44.892+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:44.895+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:44.900+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:44.901+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2024-05-21T14:20:44.953+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@459c7fa1
-2024-05-21T14:20:44.953+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2024-05-21T14:20:45.082+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:24.431+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:24.431+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:24.549+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:24.562+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:24.615+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:24.617+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:24.620+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:24.621+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-06-01T20:06:24.652+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@5248474e
+2024-06-01T20:06:24.653+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-06-01T20:06:24.773+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -367,10 +366,10 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:45.262+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:45.455+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:45.516+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@22265a2d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60ca607, org.springframework.security.web.context.SecurityContextHolderFilter@76466a5, org.springframework.security.web.header.HeaderWriterFilter@57c2bedf, org.springframework.web.filter.CorsFilter@457607d8, org.springframework.security.web.csrf.CsrfFilter@2dd7a886, org.springframework.security.web.authentication.logout.LogoutFilter@791ff1b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24b2e53b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17e77d57, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f9c9485, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76dea970, org.springframework.security.web.access.ExceptionTranslationFilter@19323826, org.springframework.security.web.access.intercept.AuthorizationFilter@2e7da886]
-2024-05-21T14:20:45.592+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.997 seconds (process running for 14.205)
+2024-06-01T20:06:24.889+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:24.974+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:25.025+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@730c4dfd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@736905fe, org.springframework.security.web.context.SecurityContextHolderFilter@75c2a35, org.springframework.security.web.header.HeaderWriterFilter@20ac726c, org.springframework.web.filter.CorsFilter@1bb509a6, org.springframework.security.web.csrf.CsrfFilter@6f6c4462, org.springframework.security.web.authentication.logout.LogoutFilter@2555b92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5bad04d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a9e31e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27c2f134, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@280d1d8d, org.springframework.security.web.access.ExceptionTranslationFilter@f3458af, org.springframework.security.web.access.intercept.AuthorizationFilter@49442e03]
+2024-06-01T20:06:25.067+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.65 seconds (process running for 9.495)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select nextval('author_seq')
@@ -379,10 +378,10 @@ Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select a1_0.id,a1_0.name from author a1_0 where a1_0.name=?
 ]]></system-out>
   </testcase>
-  <testcase name="getAuthors" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.939">
-    <system-out><![CDATA[2024-05-21T14:20:45.766+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:45.767+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2024-05-21T14:20:45.769+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+  <testcase name="getAuthors" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.621">
+    <system-out><![CDATA[2024-06-01T20:06:25.241+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:25.243+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-06-01T20:06:25.246+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -392,17 +391,17 @@ Hibernate: select a1_0.id,a1_0.name from author a1_0 where a1_0.name=?
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:45.799+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:45.800+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:45.956+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:45.973+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:46.045+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:46.049+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:46.056+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:46.057+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2024-05-21T14:20:46.104+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@65af4162
-2024-05-21T14:20:46.104+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2024-05-21T14:20:46.240+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:25.261+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:25.261+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:25.365+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:25.378+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:25.420+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:25.422+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:25.425+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:25.426+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-06-01T20:06:25.459+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@70bc684b
+2024-06-01T20:06:25.460+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-06-01T20:06:25.555+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -475,10 +474,10 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:46.408+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:46.554+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:46.618+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a41ed18, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42343f6d, org.springframework.security.web.context.SecurityContextHolderFilter@3d947adf, org.springframework.security.web.header.HeaderWriterFilter@c2b7028, org.springframework.web.filter.CorsFilter@4f808f77, org.springframework.security.web.csrf.CsrfFilter@33d102c9, org.springframework.security.web.authentication.logout.LogoutFilter@a221405, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70595d2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@668f0ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@430344bf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@758a3ba0, org.springframework.security.web.access.ExceptionTranslationFilter@307eaa06, org.springframework.security.web.access.intercept.AuthorizationFilter@12f3e95d]
-2024-05-21T14:20:46.682+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.908 seconds (process running for 15.295)
+2024-06-01T20:06:25.661+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:25.733+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:25.786+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2fe26f79, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11069bdd, org.springframework.security.web.context.SecurityContextHolderFilter@64b1d0ab, org.springframework.security.web.header.HeaderWriterFilter@c5c7db1, org.springframework.web.filter.CorsFilter@62b903ae, org.springframework.security.web.csrf.CsrfFilter@1f978bb1, org.springframework.security.web.authentication.logout.LogoutFilter@10b6a807, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ab118b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4758158f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15364d8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60cfa399, org.springframework.security.web.access.ExceptionTranslationFilter@11987483, org.springframework.security.web.access.intercept.AuthorizationFilter@30386e95]
+2024-06-01T20:06:25.837+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.588 seconds (process running for 10.264)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select nextval('author_seq')
@@ -486,10 +485,10 @@ Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select a1_0.id,a1_0.name from author a1_0
 ]]></system-out>
   </testcase>
-  <testcase name="getAuthorByName" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.968">
-    <system-out><![CDATA[2024-05-21T14:20:46.707+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:46.707+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2024-05-21T14:20:46.763+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+  <testcase name="getAuthorByName" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.634">
+    <system-out><![CDATA[2024-06-01T20:06:25.865+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:25.866+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-06-01T20:06:25.897+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -499,17 +498,17 @@ Hibernate: select a1_0.id,a1_0.name from author a1_0
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:46.789+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:46.789+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:46.956+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:46.972+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:47.041+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:47.043+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:47.048+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:47.049+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2024-05-21T14:20:47.103+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@51173c3a
-2024-05-21T14:20:47.103+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2024-05-21T14:20:47.262+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:25.914+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:25.915+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:26.035+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:26.048+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:26.110+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:26.113+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:26.117+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:26.119+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-06-01T20:06:26.160+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@42d6aa88
+2024-06-01T20:06:26.160+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-06-01T20:06:26.247+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -582,10 +581,10 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:47.405+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:47.526+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:47.586+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66968a15, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@249b8966, org.springframework.security.web.context.SecurityContextHolderFilter@7bc27f7e, org.springframework.security.web.header.HeaderWriterFilter@3030edcc, org.springframework.web.filter.CorsFilter@aae69d3, org.springframework.security.web.csrf.CsrfFilter@20a569ad, org.springframework.security.web.authentication.logout.LogoutFilter@581c7611, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d81c34a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@702189aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a4154c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59e6705f, org.springframework.security.web.access.ExceptionTranslationFilter@40f6e092, org.springframework.security.web.access.intercept.AuthorizationFilter@325a7c9]
-2024-05-21T14:20:47.656+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.891 seconds (process running for 16.269)
+2024-06-01T20:06:26.351+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:26.416+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:26.446+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@597cb2f5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd14e7c, org.springframework.security.web.context.SecurityContextHolderFilter@16f453c9, org.springframework.security.web.header.HeaderWriterFilter@1b10963a, org.springframework.web.filter.CorsFilter@17294e82, org.springframework.security.web.csrf.CsrfFilter@178e125f, org.springframework.security.web.authentication.logout.LogoutFilter@73c7a727, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@174cd1a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@718fb7a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58a7226e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66997c32, org.springframework.security.web.access.ExceptionTranslationFilter@1c16b2f7, org.springframework.security.web.access.intercept.AuthorizationFilter@1eacc589]
+2024-06-01T20:06:26.487+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.588 seconds (process running for 10.914)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select nextval('author_seq')
@@ -593,10 +592,10 @@ Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select a1_0.id,a1_0.name from author a1_0 where a1_0.name=?
 ]]></system-out>
   </testcase>
-  <testcase name="getAuthorOrElseCreate" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.918">
-    <system-out><![CDATA[2024-05-21T14:20:47.676+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:47.677+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2024-05-21T14:20:47.737+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+  <testcase name="getAuthorOrElseCreate" classname="objectArmy.bookEater.service.AuthorServiceTest" time="0.54">
+    <system-out><![CDATA[2024-06-01T20:06:26.500+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:26.500+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-06-01T20:06:26.504+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -606,17 +605,17 @@ Hibernate: select a1_0.id,a1_0.name from author a1_0 where a1_0.name=?
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-05-21T14:20:47.760+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 32164 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
-2024-05-21T14:20:47.761+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
-2024-05-21T14:20:47.913+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-21T14:20:47.928+03:00  INFO 32164 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 6 JPA repository interfaces.
-2024-05-21T14:20:47.998+03:00  INFO 32164 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-21T14:20:48.000+03:00  INFO 32164 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-21T14:20:48.003+03:00  INFO 32164 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-21T14:20:48.005+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2024-05-21T14:20:48.051+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@2f539c9b
-2024-05-21T14:20:48.052+03:00  INFO 32164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2024-05-21T14:20:48.157+03:00  INFO 32164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2024-06-01T20:06:26.518+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Starting AuthorServiceTest using Java 17.0.9 with PID 19868 (started by Philip in C:\Users\Philip\Desktop\Uni_Software_Engineering_Project\bookEater)
+2024-06-01T20:06:26.518+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T20:06:26.616+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01T20:06:26.627+03:00  INFO 19868 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 6 JPA repository interfaces.
+2024-06-01T20:06:26.669+03:00  INFO 19868 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01T20:06:26.670+03:00  INFO 19868 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-01T20:06:26.675+03:00  INFO 19868 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01T20:06:26.675+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-06-01T20:06:26.703+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@4e928f86
+2024-06-01T20:06:26.703+03:00  INFO 19868 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-06-01T20:06:26.777+03:00  INFO 19868 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
 Hibernate: alter table if exists book_authors drop constraint if exists FK551i3sllw1wj7ex6nir16blsm
 Hibernate: alter table if exists book_authors drop constraint if exists FKs4xm7q8i3uxvaiswj1c35nnxw
 Hibernate: alter table if exists book_categories drop constraint if exists FKpm3c24k4vdceji5h47d5u9w2i
@@ -689,10 +688,10 @@ Hibernate: alter table if exists user_profile_favorite_categories add constraint
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FKdf7tl4sqhkawgpyekhahjtegv foreign key (outgoing_book_requests_id) references book_request
 Hibernate: alter table if exists user_profile_outgoing_book_requests add constraint FK8otyxt09ok14v8pqtbtlcne8a foreign key (user_profile_id) references user_profile
 Hibernate: alter table if exists user_profile_notifications add constraint FKspgfauj74q0mgypxdtyg2k1v5 foreign key (user_profile_id) references user_profile
-2024-05-21T14:20:48.334+03:00  INFO 32164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-21T14:20:48.469+03:00  WARN 32164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-21T14:20:48.522+03:00  INFO 32164 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2b067248, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22bd3618, org.springframework.security.web.context.SecurityContextHolderFilter@6cf37a31, org.springframework.security.web.header.HeaderWriterFilter@711d66e0, org.springframework.web.filter.CorsFilter@ce2077, org.springframework.security.web.csrf.CsrfFilter@61598d13, org.springframework.security.web.authentication.logout.LogoutFilter@71211cd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52381b6e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41ef53a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c4493c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@123fb86b, org.springframework.security.web.access.ExceptionTranslationFilter@5381deec, org.springframework.security.web.access.intercept.AuthorizationFilter@720a0b6b]
-2024-05-21T14:20:48.574+03:00  INFO 32164 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.834 seconds (process running for 17.187)
+2024-06-01T20:06:26.871+03:00  INFO 19868 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01T20:06:26.954+03:00  WARN 19868 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01T20:06:26.990+03:00  INFO 19868 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c2c496d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76ed5e7e, org.springframework.security.web.context.SecurityContextHolderFilter@abc771e, org.springframework.security.web.header.HeaderWriterFilter@47fc346e, org.springframework.web.filter.CorsFilter@46c87d4b, org.springframework.security.web.csrf.CsrfFilter@5c2900ed, org.springframework.security.web.authentication.logout.LogoutFilter@6639a9f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2771025a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e0630cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29ad358c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6984d41a, org.springframework.security.web.access.ExceptionTranslationFilter@75c85a8a, org.springframework.security.web.access.intercept.AuthorizationFilter@9573850]
+2024-06-01T20:06:27.025+03:00  INFO 19868 --- [           main] o.bookEater.service.AuthorServiceTest    : Started AuthorServiceTest in 0.519 seconds (process running for 11.452)
 Hibernate: select nextval('author_seq')
 Hibernate: insert into author (name,id) values (?,?)
 Hibernate: select nextval('author_seq')
