@@ -1,0 +1,52 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Build with Maven
+        run: |
+          cd bookEater
+            mvn -B package --file pom.xml -DskipTests
+
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+
+      - name: Build the Docker image
+        run: |
+          docker build . \
+            --file Dockerfile \
+            --tag book-eater-image:latest \
+            --build-arg DATASOURCE_URL=${{ secrets.DATASOURCE_URL }} \
+            --build-arg DATASOURCE_USERNAME=${{ secrets.DATASOURCE_USERNAME }} \
+            --build-arg DATASOURCE_PASSWORD=${{ secrets.DATASOURCE_PASSWORD }}
+
+      - name: Tag the Docker image
+        run: docker tag book-eater-image:latest ${{ secrets.DOCKERHUB_USERNAME }}/book-eater:latest
+
+      - name: Push the Docker image to Docker Hub
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/book-eater:latest
+
+      - name: Run the Docker container
+        run: |
+          docker run -d \
+            -e DATASOURCE_URL=${{ secrets.DATASOURCE_URL }} \
+            -e DATASOURCE_USERNAME=${{ secrets.DATASOURCE_USERNAME }} \
+            -e DATASOURCE_PASSWORD=${{ secrets.DATASOURCE_PASSWORD }} \
+            -p 8080:8080 \
+            ${{ secrets.DOCKERHUB_USERNAME }}/book-eater:latest

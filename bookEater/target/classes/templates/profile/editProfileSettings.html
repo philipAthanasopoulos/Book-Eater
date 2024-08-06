@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="engl">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="components/navbar :: bookEaterNavBar"></div>
+
+<!--Settings Section-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8 mx-auto">
+            <h2 class="h3 mb-4 page-title">Settings</h2>
+            <div class="my-4">
+                <form method="post" th:action="@{/settings}" th:object="${user}">
+                    <div class="row mt-0 align-items-center">
+                        <div class="col">
+                            <div class="row align-items-center">
+                                <div class="col-md-7">
+                                    <h4 class="mb-1" th:text="${user.firstName} + ', ' + ${user.lastName}"></h4>
+                                    <p class="small mb-3"><span class="badge badge-dark">New York, USA</span></p>
+                                    <p class="small mb-3"><span class="badge badge-dark"></span></p>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-md-7">
+                                    <label class="form-label">Bio</label>
+                                    <textarea class="form-control" id="textAreaExample6" rows="3" th:field="*{bio}"
+                                              th:value="${user.bio}"></textarea>
+                                    </p>
+                                    <div>
+                                        <hr>
+                                        <div>
+                                            <label for="categories" name="selected_categories" value="">Your
+                                                Categories:</label>
+                                            <input name="categories_values" type="text" value="" readonly>
+                                            <select id="categories" name="categories" multiple class="form-control">
+                                                <option th:each="category : ${bookCategories}"
+                                                        th:value="${category.name}"
+                                                        th:text="${#lists.contains(user.favoriteCategories, category) ? category.name + '✓' : category.name}"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-4"/>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" class="form-control" th:value="${user.firstName}"
+                                   th:field="*{firstName}"/>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" class="form-control" th:value="${user.lastName}"
+                                   th:field="*{lastName}"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" th:value="${user.email}"
+                               th:field="*{email}"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDate">Date of Birth</label>
+                        <input type="date" class="form-control" id="inputDate" th:value="${user.dateOfBirth}"
+                               th:field="*{dateOfBirth}"/>
+                    </div>
+                    <hr class="my-4"/>
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Old Password</label>
+                                <input type="password" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label>New Password</label>
+                                <input type="password" class="form-control" name="new_password" th:field="*{password}"
+                                       minlength="8"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" class="form-control" name="confirm_password" minlength="8"/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-2">Password requirements</p>
+                            <p class="small text-muted mb-2">To create a new password, you have to meet all of the
+                                following requirements:</p>
+                            <ul class="small text-muted pl-4 mb-0">
+                                <li>Minimum 8 character</li>
+                                <li>At least one special character</li>
+                                <li>At least one number</li>
+                                <li>Can’t be the same as a previous password</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save Change</button>
+                    <a class="btn btn-danger text-white" th:href="@{/homepage}">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--TODO-->
+<!--FIXME-->
+<!--Cannot add multiple categories-->
+<script>
+    document.querySelector('select[name="categories"]').addEventListener('change', function (event) {
+        const selectedOption = this.options[this.selectedIndex];
+        const categoryName = selectedOption.text.replace('✓', '');
+        const input = document.querySelector('input[name="categories_values"]');
+        let currentCategories = input.getAttribute('value').split(',');
+
+        const index = currentCategories.indexOf(categoryName);
+        if (index === -1) {
+            currentCategories.push(categoryName);
+            input.setAttribute('value', currentCategories.join(','));
+            selectedOption.textContent = categoryName + '✓';
+        } else {
+            currentCategories.splice(index, 1);
+            input.setAttribute('value', currentCategories.join(','));
+            selectedOption.textContent = categoryName;
+        }
+    });
+
+    window.onload = function () {
+        const select = document.querySelector('select[name="categories"]');
+        const categories = Array.from(select.options)
+            .filter(option => option.text.includes('✓'))
+            .map(option => option.text.replace('✓', ''));
+
+        const categoriesText = categories.join(',');
+        console.log(categoriesText);
+
+        const input = document.querySelector('input[name="categories_values"]');
+        input.setAttribute('value', categoriesText);
+    };
+</script>
+
+</body>
+</html>

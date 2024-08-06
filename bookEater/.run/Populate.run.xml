@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Populate" type="DatabaseScript">
+    <script-file value="$PROJECT_DIR$/src/main/resources/DDL/users.sql" />
+    <script-file value="$PROJECT_DIR$/src/main/resources/DDL/books.sql" />
+    <script-file value="$PROJECT_DIR$/src/main/resources/DDL/authors.sql" />
+    <script-file value="$PROJECT_DIR$/src/main/resources/DDL/categories.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="dfa3e1c0-9605-4564-a2a2-8333efbbdc0a" />
+    <method v="2" />
+  </configuration>
+</component>
