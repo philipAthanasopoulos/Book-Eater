@@ -2,7 +2,7 @@
 This is a social bookstore application that enables users to exchange books<br>  
 The app can be accessed <a href="https://book-eater.onrender.com/">HERE</a> <br>
 <h2>New CI/CD update !!!</h2>
-The application is not deployed on Render with a Docker image
+The application is now deployed on Render with a Docker image
 
 ![image](https://github.com/user-attachments/assets/8bb8eb33-6015-424a-bfb2-c2b540bbeafe)
 
