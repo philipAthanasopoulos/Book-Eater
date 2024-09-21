@@ -30,6 +30,7 @@ objectArmy\bookEater\service\BookRequestService.class
 objectArmy\bookEater\service\BookService.class
 objectArmy\bookEater\repository\BookRepository.class
 objectArmy\bookEater\entity\book\BookOffer.class
+objectArmy\bookEater\espresso\Espresso.class
 objectArmy\bookEater\entity\search\AuthorSearchStrategy.class
 objectArmy\bookEater\entity\book\BookCategory.class
 objectArmy\bookEater\entity\recommend\CategoryBasedRecommendStrategy.class

@@ -7,6 +7,7 @@ C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEat
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\security\config\SecurityConfig.java
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\entity\search\AuthorSearchStrategy.java
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\repository\BookRequestRepository.java
+C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\espresso\Espresso.java
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\controller\AuthorController.java
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\repository\UserProfileRepository.java
 C:\Users\Dell\IdeaProjects\Book-Eater\bookEater\src\main\java\objectArmy\bookEater\security\config\CustomSuccessHandler.java
