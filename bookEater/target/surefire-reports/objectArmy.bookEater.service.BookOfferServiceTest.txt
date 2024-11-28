@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: objectArmy.bookEater.service.BookOfferServiceTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.115 s -- in objectArmy.bookEater.service.BookOfferServiceTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.031 s -- in objectArmy.bookEater.service.BookOfferServiceTest
